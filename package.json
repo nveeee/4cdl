@@ -1,0 +1,33 @@
+{
+  "name": "4cdl",
+  "version": "1.0.6",
+  "bin": {
+    "4cdl": "4cdl.js"
+  },
+  "description": "CLI image downloader for 4chan",
+  "main": "4cdl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheBetterEnvy",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "minimist": "^1.2.0",
+    "nightmare": "^3.0.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-aqua": "^4.4.1"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    },
+    "env": {
+      "node": true
+    }
+  }
+}
